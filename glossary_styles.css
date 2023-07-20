@@ -1,0 +1,26 @@
+
+/* Make the table responsive */
+.responsive-table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Style the search box */
+#search-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Add padding around the text and the borders */
+.responsive-table td, .responsive-table th {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Bold the Term Names */
+.responsive-table th {
+    font-weight: bold;
+}
